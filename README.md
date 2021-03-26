@@ -1,19 +1,10 @@
   # ASTU_Web_Processing_Exp
 
-  **1. Create a skeleton HTML page:**
-    Create a basic skeleton of HTML page with <head>, <body>,<title> and <meta> tags, Document relevant information using comments, Insert CSS and JavaScript 
-     using <style> and <script> tags, Insert CSS and JavaScript using external files_
+**1. Create a skeleton HTML page:** Create a basic skeleton of HTML page with tags (head, body,title and meta tags), Document relevant information using comments, Insert CSS and JavaScript using <style> and <script> tags, Insert CSS and JavaScript using external files
 
-  **2. Insert elements into the body of an HTML page:**
-  Use elements like <p>, <h1> - <h6>, <b>, 
-  <strong>, <i> , <em> , <del> , <ins> , <sub> , <sup> , <br> , <hr> , <pre> and <div> for formatting, 
-  Insert images, videos and audio using <img> , <video> and <audio> elements, Insert hyperlinks using 
-  <a> element, Understand usage of HTML5 semantic elements like <article> , <section> , <nav> , 
-  <aside> , <header> , <footer> , <summary> , etc._
+**2. Insert elements into the body of an HTML page:** Use elements like(p, h1 - h6, b, strong, i , em , del , ins , sub , sup , br , hr , pre and div tags) for formatting, Insert images, videos and audio using <img> , <video> and <audio> elements, Insert hyperlinks using <a> element, Understand usage of HTML5 semantic elements like <article> , <section> , <nav> , <aside> , <header> , <footer> , <summary>, etc.
 
-**3. Create lists and tables in a HTML page:**
-  Create unordered, ordered and description lists, Create 
-  table using <table> , <tr> , <th> and <td>, Use colspan and rowspan attribute of table
+**3. Create lists and tables in a HTML page:** Create unordered, ordered and description lists, Create table using <table> , <tr> , <th> and <td>, Use colspan and rowspan attribute of table
 
   **4. Create a HTML form to submit data to a server:**
   Create a form with different ( text , password , 
