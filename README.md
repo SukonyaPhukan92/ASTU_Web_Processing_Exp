@@ -1,19 +1,20 @@
   # ASTU_Web_Processing_Exp
 
-**1. Create a skeleton HTML page:** Create a basic skeleton of HTML page with tags (head, body,title and meta tags), Document relevant information using comments, Insert CSS and JavaScript using <style> and <script> tags, Insert CSS and JavaScript using external files
+**1. Create a skeleton HTML page:** 
+Create a basic skeleton of HTML page with tags (head, body,title and meta tags), Document relevant information using comments, Insert CSS and JavaScript using (style and script) tags, Insert CSS and JavaScript using external files
 
-**2. Insert elements into the body of an HTML page:** Use elements like(p, h1 - h6, b, strong, i , em , del , ins , sub , sup , br , hr , pre and div tags) for formatting, Insert images, videos and audio using <img> , <video> and <audio> elements, Insert hyperlinks using <a> element, Understand usage of HTML5 semantic elements like <article> , <section> , <nav> , <aside> , <header> , <footer> , <summary>, etc.
+**2. Insert elements into the body of an HTML page:** 
+ Use elements like(p, h1 - h6, b, strong, i , em , del , ins , sub , sup , br , hr , pre and div tags) for formatting, Insert images, videos and audio using (img,video and audio)  elements, Insert hyperlinks using (a) element, Understand usage of HTML5 semantic elements like (article, section, nav, aside, header, footer, summary, etc).
 
-**3. Create lists and tables in a HTML page:** Create unordered, ordered and description lists, Create table using <table> , <tr> , <th> and <td>, Use colspan and rowspan attribute of table
+**3. Create lists and tables in a HTML page:** 
+ Create unordered, ordered and description lists, Create table using (table , tr ,th and td) tags, Use colspan and rowspan attribute of table.
 
-  **4. Create a HTML form to submit data to a server:**
-  Create a form with different ( text , password , 
-  email , tel , number , radio , checkbox , textarea , file ) input fields, Set default value and placeholder 
-  in input fields, Understand required , validate , disabled , readonly , autofocus , min , max and step 
+ **4. Create a HTML form to submit data to a server:** 
+  Create a form with different ( text , password , email , tel , number , radio , checkbox , textarea , file ) input fields, Set default value and placeholder in input fields,     Understand required , validate , disabled , readonly , autofocus , min , max and step 
   attributes of input field, Validation of input (e.g., phone number, email) using Regular Expressions 
   and pattern attribute, Understand GET and POST methods, Understand the action attribute
 
-  **5. Process submitted form data using PHP:**
+ **5. Process submitted form data using PHP:**
   Process GET and POST data and display processed 
   output, save uploaded file into a directory in the server, send email message to notify user
 
