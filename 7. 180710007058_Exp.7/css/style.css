@@ -1,0 +1,259 @@
+
+.header{
+  width:100%;
+  height: 80px;
+  display: block;
+  box-sizing: border-box;
+  background color:#101101;
+
+}
+
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: beige;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+   }
+
+
+
+.navigation {
+    width: 100%;
+    background-color:#03396c;
+    position: fixed;
+    color:#ffffff;
+    height: 8vh;
+    z-index: 5;
+    box-shadow: 0 0 5px rgb(202, 201, 201);
+
+}
+.logo {
+
+    color: rgb(255, 255, 255);
+    line-height: 8vh;
+    padding: 0 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+
+}
+.navigation ul {
+    float: right;
+    margin-right: 20px;
+    line-height: 8vh;
+}
+.navigation ul li {
+    display: inline-block;
+    line-height: 8vh;
+    margin: 0 8px;
+}
+.navigation ul li a {
+    line-height: 8vh;
+    padding: 7px 13px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+
+
+  .navigation ul li  a:hover{
+    color:#ff8b94;
+
+  }
+
+
+ .active{
+   color: #fa4c9a;
+   background-color: #cc527a;
+   height: 10vh;
+   padding: 10px;
+ }
+
+.checkbtn{
+  font-size: 30px;
+  color: #ffffff;
+  float:right;
+  line-height: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.navigation #check{
+  display: none;
+}
+
+
+  .profile{
+    width: 30%;
+    margin-top: -20px;
+  }
+
+
+footer {
+text-align: center;
+padding: 10px;
+background-color: DarkSalmon;
+color: white;
+}
+
+  h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    text-align:center;
+    color: #034f84;
+
+   }
+
+  h2 {
+    color: #075AAB;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+
+   }
+
+  h3 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+
+  }
+  p{
+    text-align: center;
+  }
+
+  hr {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
+.nav_icon {
+  color: #fc2c61;
+  visibility: visible;
+}
+section {
+  padding: 60px 0px;
+  overflow: hidden;
+}
+
+.parent .childl{
+  float: left;
+  width: 40%;
+  padding:5px 35px;
+
+}
+.parent .childr{
+  float: left;
+  width: 60%;
+  padding:5px 35px;
+
+}
+
+
+  .parent{
+  display:flex;
+  text-align:left;
+}
+.articleImage{
+  width: 90%;
+}
+
+
+
+.FAQ{
+  padding: 5px 50px;
+}
+.FAQ summary{
+  padding:10px;
+  color:#034f84;
+}
+
+.articleCybersecurity{
+  width:70%;
+  float:left;
+  padding:10px;
+
+}
+
+.articleCybersecurity h1{
+  font-size: 35px;
+}
+.asideCybersecurity{
+  width:25%;
+  float:left;
+  background-color:grey;
+   color: white;
+   padding:10px;
+}
+aside h1{
+  color: #F4A460;
+}
+.about_author{
+  width:60%;
+  float:left;
+  padding:25px 25px 10px 35px;
+  background-color:#efefef;
+}
+.about_author img{
+  top: -60px;
+  left:cal(50% -50px);
+  border-radius: 50%;
+  border:10px solid #FFFFFF;
+  width:120px;
+  height:120px;
+}
+
+.asideAuthor{
+  width:30%;
+  float:left;
+  background-color:grey;
+   color: white;
+   padding:10px;
+}
+.asideAuthor li{
+  padding: 10px;
+
+}
+.asideAuthor ul{
+  padding: 25px 10px;
+  list-style-type: none;
+}
+pre{
+  text-align: center;
+  font-size: 45px;
+  color:#008080;
+  font-weight: bold;
+
+}
+
+.FAQ h1::before{
+  content: '**';
+
+}

@@ -1,0 +1,455 @@
+
+.header{
+  width:100%;
+  height: 80px;
+  display: block;
+  box-sizing: border-box;
+  background color:#101101;
+
+}
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: beige;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+   }
+
+
+
+.navigation {
+    width: 100%;
+    background-color:#03396c;
+    position: fixed;
+    color:#ffffff;
+    height: 8vh;
+    z-index: 5;
+    box-shadow: 0 0 5px rgb(202, 201, 201);
+
+}
+.logo {
+
+    color: rgb(255, 255, 255);
+    line-height: 8vh;
+    padding: 0 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+
+}
+.navigation ul {
+    float: right;
+    margin-right: 20px;
+    line-height: 8vh;
+}
+.navigation ul li {
+    display: inline-block;
+    line-height: 8vh;
+    margin: 0 8px;
+}
+.navigation ul li a {
+    line-height: 8vh;
+    padding: 7px 13px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+}
+
+
+  .navigation ul li  a:hover{
+    color:#ff8b94;
+
+  }
+
+
+ .active{
+   color: #fa4c9a;
+   background-color: #cc527a;
+   height: 10vh;
+   padding: 10px;
+ }
+@media(min-width:720px){
+  .checkbtn{
+    visibility: hidden;
+  }
+}
+.checkbtn{
+  font-size: 30px;
+  color: #ffffff;
+  float:right;
+  line-height: 50px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.navigation #check{
+  display: none;
+}
+ @media (max-width: 952px) {
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .navigation ul li a{
+    font-size: 16px;
+
+  }
+  }
+  @media (max-width: 858px) {
+    .checkbtn{
+      display: block;
+    }
+    .navigation ul{
+      position: fixed;
+      width: 100%;
+
+      background: #2c3e50;
+      top:80px;
+      left:-100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    .navigation ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    .navigation ul li a{
+      font-size: 20px;
+    }
+    .navigation a:hover, a:active{
+      background: none;
+      color:#0082e6;
+    }
+    #check:checked ~ ul{
+      left:0;
+    }
+  }
+
+@media only screen and ( max-width:720px) {
+  .profile{
+    width: 30%;
+    margin-top: -20px;
+  }
+
+}
+
+footer {
+text-align: center;
+padding: 10px;
+background-color: DarkSalmon;
+color: white;
+}
+
+  h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    text-align:center;
+    color: #034f84;
+
+   }
+
+  h2 {
+    color: #075AAB;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+
+   }
+
+  h3 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+
+  }
+  p{
+    text-align: center;
+  }
+
+  hr {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
+.nav_icon {
+  color: #fc2c61;
+  visibility: visible;
+}
+section {
+  padding: 60px 0px;
+  overflow: hidden;
+}
+@media(min-width:768px) {
+
+.parent .childl{
+  float: left;
+  width: 40%;
+  padding:5px 35px;
+
+}
+.parent .childr{
+  float: left;
+  width: 60%;
+  padding:5px 35px;
+
+}
+}
+
+@media(min-width:768px){
+  .parent{
+  display:flex;
+  text-align:left;
+}
+}
+
+.articleImage{
+  width:90%;
+  position: relative;
+  animation-name: myframes;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+
+@keyframes myframes{
+
+  0%{
+  transform:scale(1);
+}
+  100%{
+  background:black;
+  transform:scale(3) ;
+}
+}
+
+
+.FAQ{
+  padding: 5px 50px;
+}
+.FAQ summary{
+  padding:10px;
+  color:#034f84;
+}
+
+@media(min-width:768px){
+.articleCybersecurity{
+  width:70%;
+  float:left;
+  padding:10px;
+
+}
+
+.articleCybersecurity h1{
+  font-size: 35px;
+}
+.asideCybersecurity{
+  width:25%;
+  float:left;
+  background-color:grey;
+  color: white;
+  padding:10px;
+  position: relative;
+  animation-name: myframes2;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+}
+
+.articleCybersecurity{
+  float:left;
+  padding:10px;
+
+}
+
+.articleCybersecurity h1{
+  font-size: 35px;
+}
+.asideCybersecurity{
+  float:left;
+  background-color:grey;
+  color: white;
+  padding:10px;
+  position: relative;
+  animation-name: myframes2;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes myframes2{
+
+0%{
+background-color:grey;
+}
+
+30% 70%{
+background-color:pink;
+}
+
+100%{
+background:black;
+}
+}
+
+aside h1{
+  color: #F4A460;
+}
+.about_author{
+  width:60%;
+  float:left;
+  padding:25px 25px 10px 35px;
+  background-color:#efefef;
+}
+.about_author img{
+  left:cal(50% -50px);
+  border-radius: 50%;
+  border:10px solid #FFFFFF;
+  width:120px;
+  height:120px;
+}
+
+.asideAuthor{
+  float:left;
+  background-color:grey;
+   color: white;
+   padding:10px;
+}
+.asideAuthor li{
+  padding: 10px;
+
+}
+.asideAuthor ul{
+  padding: 25px 10px;
+  list-style-type: none;
+}
+@media(min-width:768px){
+  .about_author{
+    width:60%;
+  }
+  .asideAuthor{
+    width:30%;
+  }
+
+
+}
+
+
+pre{
+  text-align: center;
+  font-size: 45px;
+  color:#008080;
+  font-weight: bold;
+
+}
+
+.FAQ h1::before{
+  content: '**';
+
+}
+
+.wrapper{
+  display:grid;
+  /* grid-template-columns:1fr 1fr 1fr;*/
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap:1em;
+  /* grid-auto-rows:100px; */
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.nested{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-auto-rows: 70px;
+  grid-gap:1em;
+}
+
+.wrapper > div{
+  background:#eee;
+  padding:1em;
+}
+.wrapper > div:nth-child(odd){
+  background:#ddd;
+}
+
+.nested > div{
+  border:#333 1px solid;
+  padding:1em;
+}
+
+  @media (max-width: 858px){
+    .wrapper{
+      display:grid;
+      grid-template-columns:repeat(2, 1fr);
+      grid-gap:1em;
+      grid-auto-rows: minmax(80px, auto);
+    }
+
+    .nested{
+      display:grid;
+      grid-template-columns:repeat(2, 1fr);
+      grid-auto-rows: 70px;
+      grid-gap:1em;
+    }
+
+    .wrapper > div{
+      background:#ffbfbf;
+      padding:1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background:#74cab6;
+    }
+
+    .nested > div{
+      border:#333 1px solid;
+      padding:1em;
+    }
+
+  }
+
+  @media (max-width: 858px){
+    img{
+      width: 100%;
+    }
+
+      }
